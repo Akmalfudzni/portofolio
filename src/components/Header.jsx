@@ -1,4 +1,4 @@
-import profilePicture from '../assets/profile-picture.png'
+import Foto from '../assets/foto.png'
 import '../styles/Header.css'
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
@@ -8,7 +8,7 @@ import { FaWhatsapp } from "react-icons/fa";
 function Header() {
   return (
     <div className='header-jumbotron'>
-      <img src={profilePicture}></img>
+      <img src={Foto}></img>
       <h3>Akmalurrizqi Fudzni</h3>
       <p>Programer - Data Analyst - Researcher</p>
     <div className='socialMedia'>
